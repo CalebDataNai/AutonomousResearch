@@ -11,7 +11,7 @@ AREAS = ["evaluation and benchmarks", "interpretability", "agents and tool use",
 PROMPT = """You write the daily post for an AI research microblog read by informed non-specialists.
 Today is {date}. Focus area: {area}. Pick one specific, recent, concrete topic in that area.
 
-Write about 1000 words (900 to 1100) in Markdown:
+Write about 2000 words (1500 to 2500) in Markdown:
 - The first line is '# Title' (under 90 characters).
 - Use 3 to 4 '##' sections covering the claim, the evidence, caveats, and open questions.
 - Cite only sources you are confident exist, as Markdown links with the title. If unsure of a detail, say so.
